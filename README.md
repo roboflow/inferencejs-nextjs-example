@@ -1,5 +1,7 @@
 # Welcome to the Roboflow Inferencejs Next.js Example app!
 
+![Demo](demo.gif)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) which implements the Roboflow Inferencejs SDK for realtime object-detection in browser.
 
 ## Getting Started

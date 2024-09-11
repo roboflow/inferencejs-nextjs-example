@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "inferencejs": "^1.0.11",
+    "inferencejs": "^1.0.12",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"

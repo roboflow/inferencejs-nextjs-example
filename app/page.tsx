@@ -19,11 +19,7 @@ function App() {
     if (!modelLoading) {
       setModelLoading(true);
       inferEngine
-        .startWorker(
-          "hard-hat-sample-txcpu",
-          3,
-          "rf_EsVTlbAbaZPLmAFuQwWoJgFpMU82"
-        )
+        .startWorker("coco", 3, "rf_EsVTlbAbaZPLmAFuQwWoJgFpMU82")
         .then((id) => setModelWorkerId(id));
     }
   }, [inferEngine, modelLoading]);
